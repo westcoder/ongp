@@ -21,5 +21,5 @@ FILE=./pbfs/selection.osm.pbf
 if [ ! -f "$FILE" ]; then
     echo -e "\n ----- OSM High resolution file ($FILE) does not exist."
     echo -e "\n ----- Download and configure file in data folder."
-    curl -k $PBF_URL -o $FILE
+    curl -L -k $PBF_URL -o $FILE
 fi

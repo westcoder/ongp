@@ -1,12 +1,10 @@
-# OSM & Geocoder locally served capabilities demo
+# OSM Nominatim Geoserver Postgis
 
-This solution provides a simple deployment based on docker-compose (with a demo page) for getting you own OSM tiles mapserver with Geocoder capabilities.
+Your own OSM tiles mapserver with Geocoder capabilities.
 
 ![local served map with nominatim-ui demo using wms maps](img/osm-nominatim-screenshot.png)
 
 ## Steps
-
-With the scripts that are included in the folder we have simplified the steps to deploy the solution.
 
 **Preconditions:**
 
