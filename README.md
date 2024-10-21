@@ -1,4 +1,4 @@
-# OSM Nominatim Geoserver Postgis
+# OpenStreetMap Nominatim Geoserver Postgis
 
 Your own OSM tiles mapserver with Geocoder capabilities.
 
