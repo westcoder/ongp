@@ -9,7 +9,7 @@ FILE=$DATAFOLDER/osm-lowres.gpkg
 if [ ! -f "$FILE" ]; then
     echo -e "\n ----- OSM Low resolution file ($FILE) does not exist."
     echo -e "\n ----- Download and configure file in data folder."
-    curl -k "https://link.us1.storjshare.io/s/jumximeaymxkett2lt66cid2l4pq/osm/osm-lowres-modified.zip?download=1" -o ./osm-lowres-modified.zip
+    curl -k "https://link.eu1.storjshare.io/s/jumximeaymxkett2lt66cid2l4pq/osm/osm-lowres-modified.zip?download=1" -o ./osm-lowres-modified.zip
     unzip -o ./osm-lowres-modified.zip
     rm ./osm-lowres-modified.zip
     mv ./osm-lowres-modified.gpkg $FILE
