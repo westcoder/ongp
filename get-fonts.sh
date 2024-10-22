@@ -18,7 +18,7 @@ download() {
 REGULAR_BOLD_ITALIC="NotoSans"
 
 # Fonts available in regular and bold
-REGULAR_BOLD="NotoSansUI"
+REGULAR_BOLD="NotoSans"
 
 # Fonts only available in regular
 REGULAR="NotoSans"
