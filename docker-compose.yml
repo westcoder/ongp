@@ -51,7 +51,7 @@ services:
       - '5432'
     restart: on-failure
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready"]
+      test: [ "CMD-SHELL", "pg_isready" ]
       interval: 10s
       timeout: 5s
       retries: 5
@@ -76,7 +76,7 @@ services:
     depends_on:
       postgis:
         condition: service_healthy
-    command: ["sh", "-c", "echo 'Initializing Nominatim DB...' && nominatim import --osm-file /tmp/pbfs/selection.osm.pbf"]
+    command: [ "sh", "-c", "echo 'Initializing Nominatim DB...' && nominatim import --osm-file /tmp/pbfs/selection.osm.pbf" ]
 
-volumes: 
-     pgdata:
+volumes:
+  pgdata:
